@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,9 +17,9 @@ namespace ProjetoDllCalculadora
         #endregion  
 
         #region [Getters e Setters -> encapsulamento ]
-        public void SetN2 (double n2)
+        public void SetN2(double n2)
         {
-            this.N2 = n2
+            this.N2 = n2;   
         }
         public double GetN2()
         {
@@ -28,13 +28,15 @@ namespace ProjetoDllCalculadora
         #endregion
 
         #region [METODOS PUBLICOS DA CLASSE]
-        public double Somar(double n1,double n2)
+        public double Somar(double n1, double n2)
         {
             double Adicao = 0;
-            this.N1 = n1;this.N2 = n2;
-            Adicao= this.N1 + this.N2;  
+            this.N1 = n1; this.N2 = n2;
+            Adicao = this.N1 + this.N2;
             return Adicao;  
         }
         #endregion
+
+
     }
 }
